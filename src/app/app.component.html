@@ -1,4 +1,24 @@
-<p>Hola mundo</p>
+<h1>Cálculo de edades - Ejercicio 1 Jorge García</h1>
+<form>
+    <div>
+        <label for="edadUno">Ingrese edad 1: </label>
+        <input type="number" [(ngModel)]="edadUno" id="edadUno" min="0" max="100" class="espaciar" name="edadUno"> 
+    </div>
+    <br>
+    <div>
+        <label for="edadDos">Ingrese edad 2: </label>
+        <input type="number" [(ngModel)]="edadDos" id="edadDos" min="0" max="100" class="espaciar" name="edadDos"> 
+    </div>
+    <br>
+    <div>
+        <input type="button" value="Calcular" class="espaciar" (click)="calcular()">
+        <input type="reset" value="Limpiar cuadros de texto" class="espaciar">
+    </div>
+    <div>
+        <label for="suma">Suma edades:</label>
+        <input type="text" [(ngModel)]="suma" id="suma"  class="espaciar" name="suma">
+        <label for="promedio">Promedio edades:</label>
+        <input type="text" [(ngModel)]="promedio" id="promedio" class="espaciar" name="promedio">
+    </div>
+</form>
 <router-outlet></router-outlet>
-<app-juego></app-juego>
-<app-juego></app-juego>
