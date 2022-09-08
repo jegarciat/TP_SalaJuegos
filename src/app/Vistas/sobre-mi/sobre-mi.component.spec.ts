@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JuegoComponent } from './juego.component';
+import { SobreMiComponent } from './sobre-mi.component';
 
-describe('JuegoComponent', () => {
-  let component: JuegoComponent;
-  let fixture: ComponentFixture<JuegoComponent>;
+describe('SobreMiComponent', () => {
+  let component: SobreMiComponent;
+  let fixture: ComponentFixture<SobreMiComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ JuegoComponent ]
+      declarations: [ SobreMiComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(JuegoComponent);
+    fixture = TestBed.createComponent(SobreMiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
