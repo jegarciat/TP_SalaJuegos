@@ -1,0 +1,5 @@
+<p>Nombre: {{this.usuario.nombre}}</p>
+<p>Clave: {{this.usuario.clave}}</p>
+<input type="text" [(ngModel)]="this.usuario.nombre">
+<input type="text" [(ngModel)]="this.usuario.clave">
+<input type="button" (click)="this.usuario.mostrar()" value="Mostrar">
